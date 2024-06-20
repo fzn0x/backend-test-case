@@ -1,6 +1,8 @@
 import { run } from 'mitata';
 
 import './1_reverseString.ts';
+import './2_findLongestWord.ts';
+import './3_findArrayMatches.ts';
 
 await run({
   silent: false, // enable/disable stdout output
