@@ -8,11 +8,11 @@ export class BookService {
 
   async get(): Promise<Book[]> {
     // Shows all existing books and quantities
-    // Books that are being borrowed are not counted (stock: 0)
+    // Books that are being borrowed are not counted (no borrowers)
     const books = await this.prisma.book.findMany({
       where: {
-        stock: {
-          gt: 0,
+        borrowers: {
+          none: {},
         },
       },
     });
