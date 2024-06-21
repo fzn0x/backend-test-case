@@ -1,5 +1,9 @@
 # Eigen Test Case
 
+Case Study: Minjem Buku Perpustakaan SMK TI Garuda Nusantara
+
+- [Checks](./README-EIGEN.md)
+
 This project was based on Eigen Test Case.
 
 Structure and libraries added:
