@@ -1,5 +1,5 @@
 import { bench, group } from 'mitata';
-import { findDiagonalDifferences } from './../src/utils/findDiagonalDifferences.ts';
+import { findDiagonalDifferences } from './../src/utils/findDiagonalDifferences';
 
 group(
   {

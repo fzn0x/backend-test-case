@@ -2,7 +2,7 @@ import { bench, group } from 'mitata';
 import {
   reverseStringExceptLastChar,
   reverseStringExceptLastNumbers,
-} from './../src/utils/reverseStringExceptLastNumbers.ts';
+} from './../src/utils/reverseStringExceptLastNumbers';
 
 group(
   {

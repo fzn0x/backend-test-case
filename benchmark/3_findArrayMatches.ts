@@ -2,7 +2,7 @@ import { bench, group } from 'mitata';
 import {
   findArrayMatches,
   mapArrayMatches,
-} from './../src/utils/findArrayMatches.ts';
+} from './../src/utils/findArrayMatches';
 
 group(
   {

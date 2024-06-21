@@ -1,5 +1,5 @@
 import { bench, group } from 'mitata';
-import { findLongestWord } from './../src/utils/findLongestWord.ts';
+import { findLongestWord } from './../src/utils/findLongestWord';
 
 group(
   {

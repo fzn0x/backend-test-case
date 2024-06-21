@@ -1,1 +1,1 @@
-export { reverseStringExceptLastNumbers } from './reverseStringExceptLastNumbers.ts';
+export { reverseStringExceptLastNumbers } from './reverseStringExceptLastNumbers';
